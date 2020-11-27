@@ -1,0 +1,249 @@
+body {
+	font-family: "Basis Grotesque Pro", sans-serif;
+}
+
+@media (min-width: 1200px) {
+	.container-lg, .container-md, .container-sm, .container {
+		max-width: 1140px;
+	}
+}
+
+p {
+	font-weight: 100;
+}
+
+.copybox-container {
+
+	box-sizing: border-box;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	padding-top: 20vh;
+	padding-bottom: 64px;
+	height: 100%;
+	background-color:#fe9d8a;
+
+	@media screen and (min-width: 576px)
+	{
+		width: 540px;
+	}
+
+	@media screen and (min-width: 768px)
+	{
+		width: 720px;
+	}
+
+	@media screen and (min-width: 992px)
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+		width: 960px;
+		background-color:transparent;
+	}
+
+	@media screen and (min-width: 1200px)
+	{
+		width: 1140px;
+	}
+
+	@media screen and (max-width: 992px)
+	{
+		padding-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+
+
+
+	.copybox-parent {
+		box-sizing: border-box;
+		position: relative;
+		margin-left: -16px;
+		margin-right: -16px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		height: 100%;
+
+		@media screen and (max-width: 768px)
+		{
+			margin: 0 auto;
+		}
+
+		.copybox-child {
+
+			box-sizing: border-box;
+			position: relative;
+			padding-left: 16px;
+			padding-right: 16px;
+			width: 100%;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+
+			p {
+				font-size: 18px;
+				letter-spacing: 0;
+				font-weight: 400;
+				margin-bottom: 16px;
+				margin-top: 0;
+				display: block;
+
+				line-height: 1.5;
+				min-height: 1.5em;
+				font-weight: 400;
+			}
+
+			@media screen and (min-width: 576px)
+			{
+				width: 95%;
+			}
+
+			@media screen and (min-width: 992px)
+			{
+				width: 50%;
+			}
+
+
+			@media screen and (max-width: 991px)
+			{
+
+				margin: 0 auto;
+				width: 95%;
+
+				p {
+					color:#fff;
+					margin:  0 auto;
+					width: 90%;
+				}
+			}
+
+			.title {
+				h1, h2 {
+					-webkit-letter-spacing: 0;
+					-moz-letter-spacing: 0;
+					-ms-letter-spacing: 0;
+					letter-spacing: 0;
+					margin-bottom: 16px;
+					margin-top: 0;
+					display: block;
+					font-size: 40px;
+					line-height: 1.1;
+					font-weight: 500;
+					-webkit-letter-spacing: -0.5px;
+					-moz-letter-spacing: -0.5px;
+					-ms-letter-spacing: -0.5px;
+					letter-spacing: -0.5px;
+
+
+					@media screen and (min-width: 992px)
+					{
+						font-size: 36px;
+					}
+
+					@media screen and (min-width: 1200px)
+					{
+						font-size: 72px;
+					}
+
+					@media screen and (max-width: 991px)
+					{
+						text-align:center;
+						color:#fff;
+					}
+
+				}
+			}
+
+		}
+
+	}
+
+}
+
+
+
+.parent-module-container {
+	position: relative;
+}
+
+.open_account_btn {
+	
+	background-color: rgb(46, 92, 169);
+	color: rgb(255, 255, 255);
+	height: 52px;
+	text-align: center;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 20px;
+	max-width: 453px;
+	padding: 0px 20px;
+
+	@media screen and  (max-width: 540px)
+	{
+		width: 100%;
+		max-width: 95%;
+	}
+
+	@media screen and  (max-width: 991px)
+	{
+		margin:20px auto;
+	}
+
+}
+
+.navbar-scroll-fx {
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+}
+
+nav {
+
+	@media screen and  (max-width: 991px)
+	{
+		background-color:#f4eae8;
+		.container {
+			max-width: 100%;
+			padding:0 5%;
+
+			.navbar-collapse {
+				background-color:#fff;
+			}
+		}
+	}
+
+	&.nav-bg {
+		background-color:#fff !important;
+	}
+
+
+
+	@media screen and  (min-width: 992px)
+	{
+		background-color:transparent;
+
+		.navbar-nav {
+			margin-left: 200px;
+			.nav-item {
+				padding-right: 15px;
+				a {
+					color:#333;
+					font-size:18px;
+				}
+			}
+		}
+	}
+}
+
+

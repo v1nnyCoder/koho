@@ -1,0 +1,264 @@
+.module6 {
+
+	padding-top: 100px;
+	padding-bottom: 80px;
+
+
+	.review-container {
+		margin-top: 60px;
+
+		.row {
+			margin-bottom: 20px;
+		}
+
+		.review-box {
+			margin-top: 40px;
+
+			padding: 30px 20px 60px;
+			border-radius: 8px;
+			box-shadow: rgba(0, 0, 0, 0.1) 3px 6px 15px 0px;
+			box-sizing: border-box;
+			outline: none;
+			background:rgb(255, 255, 255);
+			height: 100%;
+
+			.star {
+
+				i {
+					margin-right: 10px;
+					color: orange;
+				}
+				
+			}
+
+			p {
+				margin-top:15px;
+				font-size: 14px;
+			}
+
+			.note {
+				font-weight: 900;
+				font-size: 16px;
+			}
+		}
+
+		.responsive-carousel {
+			.review-box {
+
+				padding: 15px 10px;
+				.inner-box {
+
+					padding: 16px;
+					border-radius: 8px;
+					box-shadow: rgba(0, 0, 0, 0.1) 3px 6px 15px 0px;
+					box-sizing: border-box;
+					outline: none;
+					background:rgb(255, 255, 255);
+					height: 100%;
+
+				}
+			}
+		}
+	}
+
+	.carousel-controls {
+		text-align: center;
+		.carousel-control-prev, .carousel-control-next {
+			position: relative;
+			display: inline-block;
+		}
+	}
+
+	.carousel-control-prev, .carousel-control-next {
+		top: auto;
+		bottom: auto;
+	}
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		height: 50px;
+		width: 50px;
+		outline: black;
+		background-image: none;
+
+	}
+
+	.carousel-control-next-icon:after
+	{
+		content: '>';
+		font-size: 35px;
+		color: #2E5CA9;
+	}
+
+	.carousel-control-prev-icon:after {
+		content: '<';
+		font-size: 35px;
+		color: #2E5CA9;
+	}
+
+	.container {
+
+		.btn-container {
+			@media screen and  (max-width: 1199px) {
+				text-align:center;
+
+				.open_account_btn {
+					margin: 30px auto !important;
+					display: inline-block !important;
+				}
+			}
+		}
+
+		h3 {
+			font-size: 18px;
+			line-height: 1.2;
+			font-weight:normal;
+			i {
+				margin-left: 15px;
+				color:orange;
+			}
+
+			@media screen and  (max-width: 991px) {
+				font-size: 30px;
+			}
+		}
+
+		.title-container {
+			.title {
+				@media screen and  (max-width: 1199px) {
+					text-align:center;
+				}
+			}
+		}
+
+		.open_account_btn {
+			margin-left:0px !important;
+			background-color:#fff;
+			color:#000;
+			border:none;
+
+			@media screen and  (max-width: 1199px) {
+				justify-content: center !important;
+			}
+			
+		}
+
+
+		.corner-image {
+			position: relative;
+			
+			img {
+				position: absolute;
+				right: 0px;
+				top: -60px;
+
+				@media screen and  (max-width: 991px) {
+					width: 50%;
+				}
+
+			}
+		}
+
+		.box-container {
+			min-height: 208px;
+			padding: 50px;
+			margin-top: 200px;
+			background-color:#2E5CA9;
+			border-radius: 64px 0;
+
+			@media screen and  (max-width: 1199px) {
+				margin-top: 110px;
+			}
+
+			.bodycontent {
+
+				.rating-title {
+					
+					font-size: 20px;
+
+					i {
+						margin-left: 10px;
+						color: orange;
+					}
+					
+				}
+
+				h3 {
+					color:#fff;
+				}
+
+				p {
+					color:#fff;
+				}
+
+				@media screen and  (max-width: 1199px) {
+					margin-top: 50px;
+					ul {
+						justify-content: center !important;
+					}
+				}
+
+				.nav-item {
+					a {
+						color:#fff;
+					}
+				}
+
+				.tab-content {
+					.tab-pane {
+						color:#fff;
+					}
+				}
+			}
+
+
+			.image-container {
+
+				@media screen and  (max-width: 1199px) {
+					text-align:center;
+				}
+
+				.image-wrapper {
+					position: absolute;
+					margin-top:-85%;
+
+					img {
+						max-width: 265px;
+					}
+
+					@media screen and  (max-width: 1199px) {
+						position: relative;
+						margin-top: -130px;
+						img {
+							width: 170px;
+						}
+					}
+
+				}	
+			}
+			
+
+			.open_account_btn {
+				margin: 20px auto;
+				display: block;
+				color:#2E5CA9;
+			}
+
+			.bio-container {
+
+				span {
+					font-size: 18px;
+				}
+
+				p {
+					margin-top: 15px;
+				}
+				img {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+	}
+}

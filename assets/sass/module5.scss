@@ -1,0 +1,142 @@
+.module5 {
+
+	padding-top: 120px;
+	padding-bottom: 80px;
+
+	.container {
+
+		.btn-container {
+			@media screen and  (max-width: 1199px) {
+				text-align:center;
+
+				.open_account_btn {
+					margin: 30px auto !important;
+					display: inline-block !important;
+				}
+			}
+		}
+
+		h3 {
+			font-size: 40px;
+			font-weight: 900;
+			line-height: 1.2;
+
+			@media screen and  (max-width: 991px) {
+				font-size: 30px;
+			}
+		}
+
+		.title-container {
+			.title {
+				@media screen and  (max-width: 1199px) {
+					text-align:center;
+				}
+			}
+		}
+
+		.open_account_btn {
+			margin-left:0px !important;
+			background-color:#fff;
+			color:#2E5CA9;
+			border:none;
+
+			@media screen and  (max-width: 1199px) {
+				justify-content: center !important;
+			}
+			
+		}
+
+
+		.corner-image {
+			position: relative;
+			
+			img {
+				position: absolute;
+				right: 0px;
+				top: -60px;
+
+				@media screen and  (max-width: 991px) {
+					width: 50%;
+				}
+
+			}
+		}
+
+		.box-container {
+			min-height: 308px;
+			padding: 50px;
+			background-color:#2E5CA9;
+			border-radius: 64px 0;
+
+			@media screen and  (max-width: 1199px) {
+				margin-top: 110px;
+			}
+
+			.bodycontent {
+
+				@media screen and  (max-width: 1199px) {
+					margin-top: 50px;
+					ul {
+						justify-content: center !important;
+					}
+				}
+
+				.nav-item {
+					a {
+						color:#fff;
+					}
+				}
+
+				.tab-content {
+					.tab-pane {
+						color:#fff;
+					}
+				}
+			}
+
+
+			.image-container {
+
+				@media screen and  (max-width: 1199px) {
+					text-align:center;
+				}
+
+				.image-wrapper {
+					position: absolute;
+					margin-top:-45%;
+
+					@media screen and  (max-width: 1199px) {
+						position: relative;
+						margin-top: -130px;
+						img {
+							width: 170px;
+						}
+					}
+
+				}	
+			}
+			
+
+			.open_account_btn {
+				margin: 20px auto;
+				display: block;
+			}
+
+			.bio-container {
+
+				span {
+					font-size: 18px;
+				}
+
+				p {
+					margin-top: 15px;
+				}
+				img {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+	}
+}

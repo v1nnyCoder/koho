@@ -1,0 +1,49 @@
+.module9 {
+	margin-bottom: 100px;
+	
+	.module9-top {
+		background:#ff9984;	
+		min-height: 100px;
+	}
+
+	.module9-left-right {
+		.box-pink {
+			border-radius:64px 0px 0px 0px;
+			width: 400px;
+			height: 200px;
+			background:#ff9984;
+		}
+
+		.box-pink-end {
+			border-radius:0px 0px 64px 0px;
+			width: 400px;
+			height: 200px;
+			background:#ff9984;
+		}
+
+		.box-blue {
+			width: 400px;
+			height: 200px;
+			background:#2e5ca9;
+		}
+	}
+
+	.module9-bottom {
+		background:#e7e5e3;	
+	}
+
+	h3 {
+		color:#000;
+		margin-bottom: 30px;
+	}
+
+	p {
+		color:#000;
+	}
+
+	.container {
+		padding: 80px 0px;
+		padding-left:50px;
+	}
+
+}

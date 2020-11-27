@@ -1,0 +1,50 @@
+.module7 {
+
+
+	h3 {
+		font-size: 40px;
+		font-weight: 900;
+	}
+
+	.accordion {
+
+		.card {
+			border:none;
+
+
+			.card-body {
+				padding-left:0px;
+			}
+
+			.card-header {
+				background:#fff;
+				border:none;
+
+				border-bottom: solid 2px grey;
+				padding-left:0px;
+
+				
+
+				h5 {
+
+					.fa {
+						position: absolute;
+						right: 10px;
+						font-size: 25px;
+					}
+
+					.btn-link {
+						font-weight: 900;
+						padding-left: 0px;
+						color:#000 !important;
+						font-size: 18px;
+					}
+					
+				}
+			}
+
+		}
+		
+	}
+
+}
