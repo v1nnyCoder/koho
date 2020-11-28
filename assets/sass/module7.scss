@@ -3,10 +3,15 @@
 
 	h3 {
 		font-size: 40px;
-		font-weight: 900;
+		font-weight: 500;
 	}
 
 	.accordion {
+
+
+		.fa-angle-down {
+			color:#2C5BA8 !important;
+		}
 
 		.card {
 			border:none;
@@ -14,6 +19,42 @@
 
 			.card-body {
 				padding-left:0px;
+
+
+				.number-list {
+					margin-top: 40px;
+					list-style: none;
+					counter-reset: my-awesome-counter;
+					margin-left:15px;
+
+				}
+
+				li {
+					counter-increment: my-awesome-counter;
+					margin: 0.25rem;
+					margin-bottom: 20px;
+
+				}
+				li::before {
+					content: counter(my-awesome-counter);
+					background: #FF9A83;
+					width: 2rem;
+					height: 2rem;
+					border-radius: 50%;
+					display: inline-block;
+					line-height: 2rem;
+					color: white;
+					text-align: center;
+					margin-right: 1.5rem;
+					margin-left:-55px;
+				}
+				ol ol li::before {
+					background: #FF9A83;
+				}
+				ol ol ol li::before {
+					background: #FF9A83;
+				}
+
 			}
 
 			.card-header {
@@ -34,10 +75,10 @@
 					}
 
 					.btn-link {
-						font-weight: 900;
+						font-weight: normal;
 						padding-left: 0px;
 						color:#000 !important;
-						font-size: 18px;
+						font-size: 16px;
 					}
 					
 				}

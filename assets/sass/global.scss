@@ -1,5 +1,6 @@
 body {
-	font-family: "Basis Grotesque Pro", sans-serif;
+	font-family: "CraftGothic-Regular", sans-serif;
+	color:#39404F;
 }
 
 @media (min-width: 1200px) {
@@ -9,7 +10,22 @@ body {
 }
 
 p {
-	font-weight: 100;
+	color:#39404F;
+}
+
+.navbar-toggler {
+	display:none;
+}
+
+h3 {
+	font-size: 55px;
+	line-height: 3.5rem;
+
+	@media screen and (max-width: 576px)
+	{
+		font-size: 30px;
+	}
+
 }
 
 .copybox-container {
@@ -93,16 +109,8 @@ p {
 			flex-direction: column;
 
 			p {
-				font-size: 18px;
-				letter-spacing: 0;
-				font-weight: 400;
-				margin-bottom: 16px;
-				margin-top: 0;
-				display: block;
-
-				line-height: 1.5;
-				min-height: 1.5em;
-				font-weight: 400;
+				font-size: 20px;
+				
 			}
 
 			@media screen and (min-width: 576px)
@@ -120,12 +128,12 @@ p {
 			{
 
 				margin: 0 auto;
-				width: 95%;
+				width: 100%;
 
 				p {
 					color:#fff;
 					margin:  0 auto;
-					width: 90%;
+					width:100%;
 				}
 			}
 
@@ -139,13 +147,9 @@ p {
 					margin-top: 0;
 					display: block;
 					font-size: 40px;
-					line-height: 1.1;
-					font-weight: 500;
-					-webkit-letter-spacing: -0.5px;
-					-moz-letter-spacing: -0.5px;
-					-ms-letter-spacing: -0.5px;
-					letter-spacing: -0.5px;
+					line-height: 1;
 
+					font-family: "CraftGothic-Regular";
 
 					@media screen and (min-width: 992px)
 					{
@@ -155,11 +159,12 @@ p {
 					@media screen and (min-width: 1200px)
 					{
 						font-size: 72px;
+						line-height: 3.5rem;
 					}
 
 					@media screen and (max-width: 991px)
 					{
-						text-align:center;
+						
 						color:#fff;
 					}
 
@@ -180,20 +185,24 @@ p {
 
 .open_account_btn {
 	
+	border:none;
 	background-color: rgb(46, 92, 169);
 	color: rgb(255, 255, 255);
 	height: 52px;
 	text-align: center;
-	border-radius: 4px;
+	border-radius: 6px;
 	font-weight: 500;
-	font-size: 20px;
-	max-width: 453px;
-	padding: 0px 20px;
+	font-size: 25px;
+	width: 100%;
+	max-width: 403px;
+	padding: 0px;
+	font-family: 'CraftGothic-Regular';
 
 	@media screen and  (max-width: 540px)
 	{
 		width: 100%;
-		max-width: 95%;
+		padding: 0px;
+		font-size: 16px;
 	}
 
 	@media screen and  (max-width: 991px)

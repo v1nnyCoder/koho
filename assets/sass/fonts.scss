@@ -1,48 +1,17 @@
 @font-face {
-	font-family:Poppins-Black;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-Black.otf") format("opentype"),
-	url('/public/fonts/Poppins-Black.ttf')  format('truetype');
+	font-family:CraftGothic-Regular;
+	src: url("/public/fonts/CraftGothic-Regular.otf") format("opentype"),
+	url('/public/fonts/CraftGothic-Regular.ttf')  format('truetype');
 }
 
 @font-face {
-	font-family:Poppins-Bold;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-Bold.otf") format("opentype"),
-	url('/public/fonts/Poppins-Bold.ttf')  format('truetype');
+	font-family:CraftGothic-Demi;
+	src: url("/public/fonts/CraftGothic-Demi.otf") format("opentype"),
+	url('/public/fonts/CraftGothic-Demi.ttf')  format('truetype');
 }
 
 @font-face {
-	font-family:Poppins-Light;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-Light.otf") format("opentype"),
-	url('/public/fonts/Poppins-Light.ttf')  format('truetype');
-}
-
-@font-face {
-	font-family:Poppins-Medium;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-Medium.otf") format("opentype"),
-	url('/public/fonts/Poppins-Medium.ttf')  format('truetype');
-}
-
-@font-face {
-	font-family:Poppins-SemiBold;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-SemiBold.otf") format("opentype"),
-	url('/public/fonts/Poppins-SemiBold.ttf')  format('truetype');
-}
-
-@font-face {
-	font-family:Poppins-Regular;
-	font-weight: bold;
-	src: url("/public/fonts/Poppins-Regular.otf") format("opentype"),
-	url('/public/fonts/Poppins-Regular.ttf')  format('truetype');
-}
-
-@font-face {
-	font-family:PTSerif-Regular;
-	font-weight: bold;
-	src: url("/public/fonts/PTSerif-Regular.otf") format("opentype"),
-	url('/public/fonts/PTSerif-Regular.ttf')  format('truetype');
+	font-family:CraftGothic-Bold;
+	src: url("/public/fonts/CraftGothic-Bold.otf") format("opentype"),
+	url('/public/fonts/CraftGothic-Bold.ttf')  format('truetype');
 }

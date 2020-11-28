@@ -1,7 +1,12 @@
 .module3 {
 
-	padding-top: 120px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	@media screen and  (max-width: 414px) {
+		padding-top: 40px;
+		padding-bottom:40px;
+	}
 
 	.container {
 
@@ -25,18 +30,28 @@
 		.box-container {
 			min-height: 550px;
 			padding: 50px;
-			background-color:#F1F5F8;
+			background-color:#EFEDED;
 			border-radius: 64px 0;
+
+			@media screen and  (max-width: 414px) {
+				padding: 30px;
+			}
+
 			h3 {
 				font-size: 40px;
 
 				@media screen and  (max-width: 991px) {
 					font-size: 30px;
+					margin-top: 20px;
 				}
 			}
 
 			.short-intro {
 				width: 60%;
+
+				@media screen and  (max-width: 991px) {
+					width: 100%;
+				}
 			}
 
 			.open_account_btn {
@@ -47,10 +62,11 @@
 			.bio-container {
 
 				span {
-					font-size: 18px;
+					font-size: 22px;
 				}
 
 				p {
+					text-align:left;
 					margin-top: 15px;
 				}
 				img {

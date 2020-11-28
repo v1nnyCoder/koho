@@ -1,12 +1,16 @@
 	$blink_font_size :55px;
-	$blink_font_size_lg :55px;
+	$blink_font_size_lg :75px;
 	$blink_font_size_md :45px;
 	$blink_font_size_sm :55px;
 	$blink_font_size_xs :45px;
+  $mobile_size: 30px;
 
 	.module2 {
-		background-color:#a9bfcf;
-		height: 725px;
+		background:url('/public/img/insights-bg.png');
+		height: 768px;
+		background-size:cover;
+		background-position: center;
+		background-repeat: no-repeat;
 
 		@media screen and (max-width: 991px) {
 			padding-top: 50px;
@@ -14,6 +18,7 @@
 		}
 
 		.copybox-container {
+			padding-top: 100px;
 			z-index: 3;
 			background-color:transparent;
 			.copybox-parent {
@@ -95,16 +100,15 @@
 				-webkit-text-stroke-color: currentcolor;
 				-webkit-text-stroke-width: 1px;
 				-webkit-text-fill-color: transparent;
-				font-size: 40px;
+				font-size: $mobile_size;
 				line-height: 1.1;
 				font-weight: 900;
 				-webkit-letter-spacing: -0.5px;
 				-moz-letter-spacing: -0.5px;
 				-ms-letter-spacing: -0.5px;
 				letter-spacing: -0.5px;
-				font-size: 61px;
 				line-height: 0.7;
-				color: #E43C2F;
+				color: #fff;
 				-webkit-text-stroke-width: 2px;
 				opacity: 0;
 				-webkit-user-select: none;
@@ -169,16 +173,15 @@
 			display: block;
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;
@@ -239,16 +242,15 @@
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-fill-color:transparent;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;
@@ -308,16 +310,15 @@
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-fill-color:transparent;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;
@@ -378,16 +379,15 @@
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-fill-color:transparent;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;
@@ -448,16 +448,15 @@
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-fill-color:transparent;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;
@@ -517,16 +516,15 @@
 			-webkit-text-stroke-color: currentcolor;
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-fill-color:transparent;
-			font-size: 40px;
+			font-size: $mobile_size;
 			line-height: 1.1;
 			font-weight: 900;
 			-webkit-letter-spacing: -0.5px;
 			-moz-letter-spacing: -0.5px;
 			-ms-letter-spacing: -0.5px;
 			letter-spacing: -0.5px;
-			font-size: 61px;
 			line-height: 0.7;
-			color: #E43C2F;
+			color: #fff;
 			-webkit-text-stroke-width: 2px;
 			opacity: 0;
 			-webkit-user-select: none;

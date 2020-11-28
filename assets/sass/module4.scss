@@ -1,24 +1,55 @@
 .module4 {
 	.container {
 
+
+		@media screen and (min-width:414px) {
+			height: auto;
+		}
+
 		.row:not(:last-child) {
 			margin-bottom: 100px;
+
+			@media screen and (max-width:414px) {
+				margin-bottom: 40px;
+			}
+
 		}
 
 		.case-study-img {
+
+			height: 497px;
+
+			@media screen and (max-width:414px) {
+				height: auto;
+			}
+
+
+			&.secondary {
+				height: 397px;
+
+				@media screen and (max-width:414px) {
+					height: auto;
+					margin-bottom: 30px;
+				}
+
+			}
+
 			img {
-				width:100%;
+
+				@media screen and (max-width:414px) {
+					width:100%;
+				}
+
 			}
 		}
 
+
+
+
 		@media screen and (max-width: 991px) {
 
-			.video-container {
-				margin-top: 50px;
-			}
-			
+
 			.copybox-container .copybox-parent .copybox-child .title h1, .copybox-container .copybox-parent .copybox-child .title h2 {
-				text-align: center;
 				color: #000;
 				font-size: 23px;
 			}
@@ -26,9 +57,16 @@
 			.copybox-container .copybox-parent .copybox-child p {
 				color: #000;
 				margin: 0 auto;
-				width: 90%;
+				width: 100%;
 			}
 		}
+
+		@media screen and (max-width: 414px) {
+			.copybox-container {
+				margin-bottom: 30px;
+			}
+		}
+
 
 		.video-container {
 
