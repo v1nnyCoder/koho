@@ -196,7 +196,7 @@ module.exports = function(grunt) {
             },
             html: {
               // Watch php for changes
-              files: ['**/*.php'],
+              files: ['**/*.html'],
               tasks: [],
               options: {
               	livereload: true
