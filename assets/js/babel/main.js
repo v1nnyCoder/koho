@@ -48,4 +48,22 @@ $(".module2").mouseout(function (e) {
 
 $("#pills-item1-tab").click(function () {});
 $("#pills-item2-tab").click(function () {});
-$("#pills-item3-tab").click(function () {}); // $(document).ready(function(){
+$("#pills-item3-tab").click(function () {});
+$(document).ready(function () {
+  var password_flag = false;
+  callPrompt();
+
+  function callPrompt() {
+    bootbox.prompt({
+      title: "Enter Password",
+      inputType: 'password',
+      callback: function callback(result) {
+        if (result == 'juliet') {
+          return true;
+        } else {
+          callPrompt();
+        }
+      }
+    });
+  }
+}); // $(document).ready(function(){

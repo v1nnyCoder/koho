@@ -39,5 +39,7 @@
 <script src="public/js/vendors/bootstrap.min.js"></script>
 <script src="public/js/vendors/axios.min.js"></script>
 <script src="public/js/vendors/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
 <script src="public/js/script.min.js"></script>
 <script src="public/js/vendors/slick.min.js"></script>
+

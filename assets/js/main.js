@@ -69,6 +69,32 @@ $( "#pills-item3-tab" ).click(function() {
 	
 });
 
+
+
+$(document).ready(function(){
+
+	var password_flag = false;
+
+	callPrompt()
+
+	function callPrompt() {
+
+		bootbox.prompt({
+			title: "Enter Password",
+			inputType: 'password',
+			callback: function (result) {
+				if(result=='juliet') {
+					return true;
+				}else {
+					callPrompt();
+				}
+			}
+		});
+
+	}
+})
+
+
 // $(document).ready(function(){
 // 	$('.responsive-carousel').slick({
 //   dots: true,
