@@ -189,14 +189,21 @@ h3 {
 
 .open_account_btn {
 	
+
+	a {
+		font-weight: 500;
+		font-size: 25px;
+		text-decoration:none;
+		color: rgb(255, 255, 255);
+	}
+
 	border:none;
 	background-color: rgb(46, 92, 169);
-	color: rgb(255, 255, 255);
+	
 	height: 52px;
 	text-align: center;
 	border-radius: 6px;
-	font-weight: 500;
-	font-size: 25px;
+	
 	width: 100%;
 	max-width: 403px;
 	padding: 0px;
@@ -204,14 +211,19 @@ h3 {
 
 	@media screen and  (max-width: 540px)
 	{
-		width: 100%;
-		padding: 0px;
-		font-size: 16px;
+
+		a {
+			width: 100%;
+			padding: 0px;
+			font-size: 16px;
+		}
 	}
 
 	@media screen and  (max-width: 991px)
 	{
-		margin:20px auto;
+		a {
+			margin:20px auto;
+		}
 	}
 
 }
