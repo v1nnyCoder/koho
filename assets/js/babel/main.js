@@ -110,8 +110,6 @@ $(document).ready(function () {
   }
 });
 window.addEventListener("DOMContentLoaded", function () {
-  console.log('wtf'); // get the form elements defined in your form HTML above
-
   var form = document.getElementById("my-form");
   var button = document.getElementById("my-form-button");
   var status = document.getElementById("my-form-status"); // Success and Error functions for after the form is submitted
