@@ -16,59 +16,64 @@
 
 <body class="signup-container">
 
-<header>
-	<nav class="navbar navbar-expand-md navbar-light fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img class="koho-juliet-logo" src="public/img/koho-juliet-logo.png"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		</div>
-	</nav>
-</header>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img class="koho-juliet-logo" src="public/img/koho-juliet-logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
+	</header>
 
 
 
-<!-- module 1 -->
-<div class="parent-module-container">
-	<div class="signup">
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-8 align-self-center">
+	<!-- module 1 -->
+	<div class="parent-module-container">
+		<div class="signup">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-8 align-self-center">
 
-				<div class="form-container">
-					<h1>Let's get started!</h1>
-					<p>In under a minute, you can open a relationship with Juliet that makes you feel good about true partnership and the future of KOHO as a breakthrough challenger brand.</p>
-					<p>Just enter your email, and hit send on the pre-written one below.</p>
+					<div class="form-container">
+						<h1>Let's get started!</h1>
+						<p>In under a minute, you can open a relationship with Juliet that makes you feel good about true partnership and the future of KOHO as a breakthrough challenger brand.</p>
+						<p>Just enter your email, and hit send on the pre-written one below.</p>
 
-					<form>
-						<input class="form-control" type="email" placeholder="Email*">
-						<textarea>Dear Juliet -
+						<p class="email-status" id="my-form-status"></p>
 
+						<form id="my-form" action="https://formspree.io/f/xeqpllgn" method="POST">
+						
+							<input required="required" name="email" id="email" class="form-control" type="email" placeholder="Email*">
+							<textarea name="message" id="message">Dear Juliet -
 We love that you want to help us punch above our weight, and that you've got a history of helping challenger brands do exactly that. Let's go shake up Canadians' entrenched banking behaviours, together. This all feels right. So right. Let's work together!!
 
 The KOHO team.
-						</textarea>
+							</textarea>
 
-						<input type="button" value="Submit" class="btn-primary btn">
-					</form>
+							<input type="submit" id="my-form-button" value="Submit" class="btn-primary btn">
+						</form>
+
+						
+
+					</div>
+
 				</div>
-
 			</div>
 		</div>
 	</div>
-</div>
-<!-- endof module 1 -->
+	<!-- endof module 1 -->
 
 
-<script src="public/js/vendors/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
-<script src="public/js/vendors/bootstrap.min.js"></script>
-<script src="public/js/vendors/axios.min.js"></script>
-<script src="public/js/vendors/jquery.mask.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
-<script src="public/js/script.min.js"></script>
-<script src="public/js/vendors/slick.min.js"></script>
+	<script src="public/js/vendors/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
+	<script src="public/js/vendors/bootstrap.min.js"></script>
+	<script src="public/js/vendors/axios.min.js"></script>
+	<script src="public/js/vendors/jquery.mask.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js"></script>
+	<script src="public/js/script.min.js"></script>
+	<script src="public/js/vendors/slick.min.js"></script>
 
 
 
