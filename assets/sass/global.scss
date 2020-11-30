@@ -1,6 +1,16 @@
 body {
 	font-family: "CraftGothic-Regular", sans-serif;
 	color:#39404F;
+
+	.audio-icon {
+		&:hover {
+			cursor:pointer;
+		}
+
+		img {
+			width: 20px;
+		}
+	}
 }
 
 .bootbox {

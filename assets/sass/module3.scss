@@ -61,6 +61,16 @@
 
 			.bio-container {
 
+				audio {
+					display: none;
+				}
+
+				img {
+					&:hover {
+						cursor: pointer;
+					}
+				}
+
 				span {
 					font-size: 22px;
 				}
