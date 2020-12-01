@@ -12,6 +12,12 @@
 		background-repeat: no-repeat;
 		background-size: 100% 253px;
 		min-height: 253px;
+
+		@media screen and (max-width:414px) {
+			min-height: 203px;
+		}
+
+
 	}
 
 	.module9-left-right {
@@ -132,7 +138,8 @@
 		margin-bottom: 30px;
 
 		@media screen and (max-width:414px) {
-			margin-top: 15px;
+			margin-top: -15px;
+			padding-bottom: 20px;
 		}
 
 	}
