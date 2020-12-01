@@ -154,11 +154,12 @@ $(document).ready(function(){
 if(screen.width <= 480) {
 	
 
-	$( ".bio-container .bio-image img" ).click(function() {
-
+	$('.bio-container .bio-image img').on('touchstart', function() {
 		var audio_id = this.id+'-audio';
 		var vid = document.getElementById(audio_id);
 		vid.currentTime = 0;
+
+		console.log(audio_id);
 
 		vid_play = audio_id;
 
@@ -168,7 +169,8 @@ if(screen.width <= 480) {
 			vid.muted = false;
 
 		vid.play(); 
-	});
+	})
+
 
 
 	$( ".bio-container .bio-image img" ).mouseout(function() {
