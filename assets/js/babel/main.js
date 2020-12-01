@@ -88,6 +88,7 @@ function setCookie(cname, cvalue, exdays) {
 }
 
 var global_mute = false;
+var vid_play = [];
 $(document).ready(function () {
   var password_flag = false; // pillar change image onclick
 
@@ -120,20 +121,37 @@ $(document).ready(function () {
     });
   }
 });
-$(".bio-container .bio-image img").mouseover(function () {
-  var audio_id = this.id + '-audio';
-  console.log(audio_id);
-  var vid = document.getElementById(audio_id);
-  vid.currentTime = 0;
-  if (global_mute) vid.muted = true;else vid.muted = false;
-  vid.play();
-});
-$(".bio-container .bio-image img").mouseout(function () {
-  var audio_id = this.id + '-audio';
-  console.log(audio_id);
-  var vid = document.getElementById(audio_id);
-  vid.pause();
-});
+
+if (screen.width <= 480) {
+  $(".bio-container .bio-image img").click(function () {
+    var audio_id = this.id + '-audio';
+    var vid = document.getElementById(audio_id);
+    vid.currentTime = 0;
+    vid_play = audio_id;
+    if (global_mute) vid.muted = true;else vid.muted = false;
+    vid.play();
+  });
+  $(".bio-container .bio-image img").mouseout(function () {
+    var audio_id = this.id + '-audio';
+    var vid = document.getElementById(audio_id);
+    vid.pause();
+  });
+} else {
+  $(".bio-container .bio-image img").mouseover(function () {
+    var audio_id = this.id + '-audio';
+    console.log(audio_id);
+    var vid = document.getElementById(audio_id);
+    vid.currentTime = 0;
+    if (global_mute) vid.muted = true;else vid.muted = false;
+    vid.play();
+  });
+  $(".bio-container .bio-image img").mouseout(function () {
+    var audio_id = this.id + '-audio';
+    console.log(audio_id);
+    var vid = document.getElementById(audio_id);
+    vid.pause();
+  });
+}
 
 if (jQuery('body').hasClass('signup-container')) {
   var ajax = function ajax(method, url, data, success, error) {
