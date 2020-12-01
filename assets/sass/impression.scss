@@ -69,6 +69,8 @@
 
 		margin-top: 80px;
 
+
+
 		.logo-wrapper {
 			img {
 
@@ -76,6 +78,16 @@
 				{
 					width:100%;
 				}
+			}
+		}
+
+
+		@media screen and  (max-width: 991px)
+		{
+			margin-top: 180px;
+
+			&.more-padding {
+				margin-top: 190px;
 			}
 		}
 
@@ -89,16 +101,25 @@
 			}
 		}
 
+
 		h4 {
 			margin-left: 50px;
 			font-size: 50px;
 
-			@media screen and  (max-width: 420px)
+			@media screen and  (max-width: 991px)
+			{
+				display: none;
+				font-size: 35px;
+				margin-left: 50px;
+			}
+
+			@media screen and  (max-width: 410px)
 			{
 				display: none;
 				font-size: 35px;
 				margin-left: 10px;
 			}
+
 		}
 
 		.border-bg {
@@ -126,7 +147,7 @@
 				h4 {
 					display: none;
 
-					@media screen and  (max-width: 420px)
+					@media screen and  (max-width: 991px)
 					{
 
 						display: block;
