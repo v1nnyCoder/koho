@@ -3,6 +3,14 @@
 	&.what-we-do {
 		margin-top: 50px;
 
+		@media screen and (min-width:768px) {
+			.copybox-container .copybox-parent .copybox-child .title h1, .copybox-container .copybox-parent .copybox-child .title h3 {
+				font-size: 55px;
+			}
+		}
+
+		
+
 		.case-study-img {
 			height: auto;
 		}
