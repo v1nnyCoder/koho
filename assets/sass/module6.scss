@@ -1,6 +1,19 @@
 .module6 {
 
 
+	.review-box-cta {
+		text-align: center;
+		margin-top: 30px;
+
+		.open_account_btn {
+			background-color:#2e5ca9 !important;
+			a {
+				color:#fff !important;
+			}
+		}
+		
+	}
+
 	.e-bg-letter {
 		position: absolute;
     margin-left: -70px;
