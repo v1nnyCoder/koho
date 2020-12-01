@@ -2,6 +2,47 @@
 	.container {
 
 
+		.j-bg-letter {
+			position: absolute;
+			left: -60px;
+			bottom: -70px;
+
+			@media screen and (max-width:768px) {
+				display: none;
+			}
+		}
+
+		.u-bg-letter-right {
+			position: absolute;
+			right: -70px;
+			bottom: -20px;
+
+			@media screen and (max-width:768px) {
+				display: none;
+			}
+		}
+
+
+		.l-bg-letter-right {
+			position: absolute;
+			left: -60px;
+			bottom: -120px;
+
+			@media screen and (max-width:768px) {
+				display: none;
+			}
+		}
+
+		.i-bg-letter-right {
+			position: absolute;
+			right: -30px;
+			bottom: -220px;
+
+			@media screen and (max-width:768px) {
+				display: none;
+			}
+		}
+
 		@media screen and (min-width:414px) {
 			height: auto;
 		}

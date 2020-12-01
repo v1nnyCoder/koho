@@ -1,5 +1,29 @@
 .module6 {
 
+
+	.e-bg-letter {
+		position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 0;
+
+		@media screen and (max-width:768px) {
+			display: none;
+		}
+	}
+
+
+	.t-bg-letter {
+		position: absolute;
+    right: 150px;
+    bottom: -120px;
+   
+		@media screen and (max-width:768px) {
+			display: none;
+		}
+	}
+
+
 	padding-top: 100px;
 	padding-bottom: 80px;
 
@@ -10,7 +34,9 @@
 
 
 	.review-container {
+		position: relative;
 		margin-top: 60px;
+		z-index: 1;
 
 		@media screen and  (max-width: 414px) {
 			margin-top: 0px;
@@ -183,6 +209,7 @@
 		}
 
 		.box-container {
+			position: relative;
 			min-height: 208px;
 			padding: 50px;
 			margin-top: 200px;
