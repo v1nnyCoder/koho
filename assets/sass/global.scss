@@ -13,6 +13,7 @@ body {
 	}
 }
 
+
 .bootbox {
 	background:#000;
 }
@@ -31,9 +32,14 @@ p {
 	display:none;
 }
 
+h1,h2,h3,h4 {
+	font-family: "CraftGothic-Demi";
+}
+
 h3 {
 	font-size: 55px;
 	line-height: 3.5rem;
+	font-family: "CraftGothic-Demi";
 
 	@media screen and (max-width: 576px)
 	{
@@ -164,7 +170,7 @@ h3 {
 					font-size: 40px;
 					line-height: 1;
 
-					font-family: "CraftGothic-Regular";
+					font-family: "CraftGothic-Demi";
 
 					@media screen and (min-width: 992px)
 					{
