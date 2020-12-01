@@ -1,0 +1,155 @@
+.impression {
+	.top-container {
+		height: 627px;
+		background: url(../img/impression-bg.png);
+		background-size: cover;
+		background-position: center center;
+
+		@media screen and  (max-width: 420px)
+		{
+			height: auto;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
+
+
+
+		.container {
+			height: 627px;
+
+			@media screen and  (max-width: 420px)
+			{
+				height: auto;
+
+			}
+
+			.align-self-center {
+				width: 70%;
+				margin: 50px 0px;
+			}
+
+			h2 {
+				margin-top: 30px;
+				color:#fff;
+				font-size: 75px;
+				line-height: 1;
+
+				@media screen and  (max-width: 420px)
+				{
+					font-size: 30px;
+					margin-top: auto;
+
+				}
+
+			}
+		}
+	}
+
+	.bottom-container {
+
+		margin-top: 80px;
+
+		.logo-wrapper {
+			img {
+
+				@media screen and  (max-width: 420px)
+				{
+					width:100%;
+				}
+			}
+		}
+
+
+		@media screen and  (max-width: 420px)
+		{
+			margin-top: 140px;
+
+			&.more-padding {
+				margin-top: 190px;
+			}
+		}
+
+		h4 {
+			margin-left: 50px;
+			font-size: 55px;
+
+			@media screen and  (max-width: 420px)
+			{
+				display: none;
+				font-size: 35px;
+				margin-left: 10px;
+			}
+		}
+
+		.border-bg {
+			border-radius: 0 0 64px 0;
+			background:#EBECED;
+
+			.img-wrapper {
+				padding: 0px;
+				padding-bottom: 30px;
+				margin-top:-100px;
+				text-align: center;
+				img {
+					@media screen and  (max-width: 420px)
+					{
+						margin: 0 auto;
+						width: 90%;
+					}
+				}
+			}
+
+			.copy-wrapper {
+
+
+
+				h4 {
+					display: none;
+
+					@media screen and  (max-width: 420px)
+					{
+
+						display: block;
+
+					}
+				}
+				p {
+					padding: 0 50px;
+
+					@media screen and  (max-width: 420px)
+					{
+						padding: 10px;
+					}
+				}
+			}
+
+		}
+
+
+		.better-conver {
+
+			.logo-wrapper {
+				img {
+					margin-right: 50px;
+
+					@media screen and  (max-width: 420px)
+					{
+						max-width: 250px;
+					}
+				}
+			}
+
+			.border-bg { 
+
+				.img-wrapper {
+					margin-top: -190px;
+				}
+
+			}
+
+		}
+
+	}
+
+}

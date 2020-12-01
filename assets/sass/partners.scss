@@ -1,0 +1,103 @@
+.preferred-partners {
+
+	.partner-title {
+		padding-left:30px;
+		margin: 30px auto 20px;
+	}
+
+
+	.module3 {
+
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		@media screen and  (max-width: 414px) {
+			padding-top: 40px;
+			padding-bottom:40px;
+		}
+
+		.container {
+
+			padding: 0px;
+
+			h2 {
+				padding: 20px 50px;
+				font-size: 50px;
+			}
+
+			.corner-image {
+				position: relative;
+
+				img {
+					position: absolute;
+					right: 0px;
+					top: -60px;
+
+					@media screen and  (max-width: 991px) {
+						width: 50%;
+					}
+
+				}
+			}
+
+			.box-container {
+				min-height: 550px;
+				padding: 50px;
+				background-color:#EFEDED;
+				border-radius: 0 0 64px 0;
+
+				@media screen and  (max-width: 414px) {
+					padding: 30px;
+				}
+
+				
+
+				.short-intro {
+					width: 100%;
+
+					@media screen and  (max-width: 991px) {
+						width: 100%;
+					}
+				}
+
+				.open_account_btn {
+					margin: 20px auto;
+					display: block;
+				}
+
+				.bio-container {
+
+					.job-title {
+						display: block;
+						font-size: 16px;
+					}
+
+					audio {
+						display: none;
+					}
+
+					img {
+						&:hover {
+							cursor: pointer;
+						}
+					}
+
+					span {
+						font-size: 22px;
+					}
+
+					p {
+						text-align:left;
+						margin-top: 15px;
+					}
+					img {
+						width: 100%;
+						margin-bottom: 10px;
+					}
+				}
+			}
+
+		}
+	}
+
+}
