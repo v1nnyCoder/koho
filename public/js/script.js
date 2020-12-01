@@ -123,7 +123,7 @@ $(document).ready(function () {
 });
 
 if (screen.width <= 480) {
-  $('.bio-container .bio-image img').on('touchstart', function () {
+  $('.bio-container .bio-image').on('mousedown touchstart', function () {
     var audio_id = this.id + '-audio';
     var vid = document.getElementById(audio_id);
     vid.currentTime = 0;
