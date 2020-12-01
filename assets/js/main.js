@@ -151,9 +151,15 @@ $(document).ready(function(){
 })
 
 
+console.log(screen.width);
+
 if(screen.width <= 480) {
+
 	
-	$('.bio-container .bio-image').on('mousedown touchstart', function() {
+	$('.bio-container .bio-image img').on('click', function() {
+
+		console.log('hellio2')
+
 		var audio_id = this.id+'-audio';
 		var vid = document.getElementById(audio_id);
 		vid.currentTime = 0;
