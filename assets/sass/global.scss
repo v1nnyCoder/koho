@@ -7,6 +7,10 @@ body {
 			cursor:pointer;
 		}
 
+		@media (max-width: 420px) {
+			display:none;
+		}
+
 		img {
 			width: 20px;
 		}
