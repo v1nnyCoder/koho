@@ -89,6 +89,14 @@ function setCookie(cname, cvalue, exdays) {
 
 var global_mute = false;
 var vid_play = [];
+
+function openVid(id, img_src) {
+  jQuery('#' + img_src).hide();
+  var vid = document.getElementById(id);
+  vid.currentTime = 0;
+  vid.play();
+}
+
 $(document).ready(function () {
   var password_flag = false; // pillar change image onclick
 
@@ -121,25 +129,8 @@ $(document).ready(function () {
     });
   }
 });
-console.log(screen.width);
 
-if (screen.width <= 480) {
-  $('.bio-container .bio-image img').on('click', function () {
-    console.log('hellio2');
-    var audio_id = this.id + '-audio';
-    var vid = document.getElementById(audio_id);
-    vid.currentTime = 0;
-    console.log(audio_id);
-    vid_play = audio_id;
-    if (global_mute) vid.muted = true;else vid.muted = false;
-    vid.play();
-  });
-  $(".bio-container .bio-image img").mouseout(function () {
-    var audio_id = this.id + '-audio';
-    var vid = document.getElementById(audio_id);
-    vid.pause();
-  });
-} else {
+if (screen.width <= 480) {} else {
   $(".bio-container .bio-image img").mouseover(function () {
     var audio_id = this.id + '-audio';
     console.log(audio_id);

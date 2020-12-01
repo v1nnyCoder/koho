@@ -6,6 +6,10 @@
 	@media screen and  (max-width: 414px) {
 		padding-top: 40px;
 		padding-bottom:40px;
+
+		.hide-mobile {
+			display: none;
+		}
 	}
 
 	.container {
