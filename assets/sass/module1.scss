@@ -6,6 +6,13 @@
 	position: relative;
 	opacity: 0.99;
 
+	.copybox-container .copybox-parent .copybox-child p {
+		@media screen and  (min-width: 992px)
+		{
+			width: 90%;
+		}
+	}
+
 	
 
 	.mobile-img-container {
