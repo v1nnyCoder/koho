@@ -22,8 +22,12 @@
 		position: absolute;
 		z-index: 1;
 
+		&:hover {
+			cursor:pointer;
+		}
+
 		@media screen and (max-width:420px) {
-		left:0px;			
+			left:0px;			
 		}
 
 	}
